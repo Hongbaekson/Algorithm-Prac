@@ -10,7 +10,7 @@ public class StackSequence {
 		int m =0;
 		StringBuilder sb = new StringBuilder();
 		
-		for(int x :arr) {
+		for(int x : arr) {
 			if(x > m ) {
 				while(x > m) {
 					stack.push(++m);
